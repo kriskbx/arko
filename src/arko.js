@@ -60,7 +60,7 @@ class arko {
         return embed.parentNode.classList.contains(this.options.classNames.active) || this.exclude(embed);
     }
 
-    static exclude(embed) {
+    exclude(embed) {
         return embed.classList.contains('instagram-media');
     }
 }
