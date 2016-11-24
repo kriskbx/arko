@@ -61,7 +61,7 @@ class arko {
     }
 
     exclude(embed) {
-        return embed.classList.contains('instagram-media');
+        return embed.classList.contains('instagram-media') || embed.classList.contains('pb_feed_iframe');
     }
 }
 

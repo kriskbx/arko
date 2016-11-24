@@ -1,6 +1,6 @@
 {
   "name": "arko",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automagically make embeds responsive. (vanilla JS)",
   "main": "src/arko.js",
   "scripts": {
